@@ -34,6 +34,9 @@ The code's organized to analyze the data, and create an output file in the Analy
  ![PyBank](Images/Budget.gif)
  
  The [main script](PyBank/main.py) analyzes, and create an out put in [Analysis](PyBank/Analysis/pyBank_output.txt) sub-folder. 
+  The code looks as follows:
+ 
+ ![PyBank main code](Images/pynbank.gif)
  
  The code compute the following tasks:
  
@@ -47,9 +50,9 @@ The code's organized to analyze the data, and create an output file in the Analy
 
   * The greatest decrease in losses (date and amount) over the entire period
 
- The code looks as follows:
- 
-![PyBank main code](Images/pynbank.gif)
+The output looks as follows:
+
+ ![PyBank output](Images/Financial Analysis.png)
 
 
   
