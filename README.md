@@ -33,7 +33,7 @@ The code's organized to analyze the data, and create an output file in the Analy
 
  ![PyBank](Images/Budget.gif)
  
- The [main script](PyBank/main.py) analyzes, and create an out put in [Analysis](PyBank/Analysis/pyBank_output.txt) sub-folder. 
+ The [main script](PyBank/main.py) analyzes, and create an out put in PyBank [Analysis](PyBank/Analysis/pyBank_output.txt) sub-folder. 
  
   The code looks as follows:
  
@@ -61,7 +61,7 @@ The output looks as follows:
  
   ![PyPoll](Images/pypoll1.gif)
  
- The [main script](PyPoll/main.py) analyzes, and create an out put in [Analysis](Pypoll/Analysis/pyPoll_output.txt) sub-folder. 
+ The [main script](PyPoll/main.py) analyzes, and create an out put in PyPoll [Analysis](Pypoll/Analysis/pyPoll_output.txt) sub-folder. 
  
   The code looks as follows:
   ![PyBank main code](Images/pypoll.gif)
