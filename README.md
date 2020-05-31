@@ -29,3 +29,8 @@ The code's organized to analyze the data, and create an output file in the Analy
  ## PyBank
  ![PyBank](Images/Budget.gif)
  
+ In this challenge a python script created to analyze financial data of a company and give an out put. The dataset [budget data](PyBank/Resources/budget_data.csv) is composed of two columns: `Date` and `Profit/Losses`.The [main script](PyBank/main.py)analyzes, and create
+                - 
+ 
+ 
+ 
