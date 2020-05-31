@@ -5,7 +5,7 @@ import csv
 
 # Set relative path for csv file
 
-data_path = os.path.join('/Users/ermiasgaga/documents/GitHub/python-challenge/PyBoss/', 'Resources', 'employee_data.csv')
+data_path = os.path.join('..', 'Resources', 'employee_data.csv')
 
 # Abrivation of ssates added form "https://gist.github.com/afhaque/29f0f4f37463c447770517a6c17d08f5"
 us_state_abbrev = {
@@ -91,7 +91,7 @@ new_data = zip(employee_id, first_name, last_name, dob, ssn, state)
 
 #names output data_path
 
-doutput_file = os.path.join('/Users/ermiasgaga/documents/GitHub/python-challenge/PyBoss/', 'Analysis', 'pyBoss_output.txt')
+doutput_file = os.path.join('..', 'Analysis', 'pyBoss_output.txt')
 
 #open and writes to csv
 with open(doutput_file, 'w') as csvwrite:
