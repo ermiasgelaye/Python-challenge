@@ -52,7 +52,7 @@ The code's organized to analyze the data, and create an output file in the Analy
 
 The output looks as follows:
 
-![PyBank output](Images/Financial Analysis.png)
+ ![PyBank output](Images/pynbank.gif)
 
 
   
