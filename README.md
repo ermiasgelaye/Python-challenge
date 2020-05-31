@@ -51,7 +51,7 @@ The code's organized to analyze the data, and create an output file in the Analy
   * The greatest decrease in losses (date and amount) over the entire period
 
 The output looks as follows:
-![PyBank main code](Images/Financial Analysis.gif)
+![PyBank main code](Images/Financial Analysis.png)
 
 
   
