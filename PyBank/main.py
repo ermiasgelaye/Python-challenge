@@ -2,7 +2,7 @@
 import os
 import csv
 # Set relative path for csv file
-data_path=os.path.join('..', 'Resources', 'budget_data.csv')
+data_path=os.path.join('/Users/ermiasgaga/documents/GitHub/python-challenge/PyBank/', 'Resources', 'budget_data.csv')
 # counter for the total number of months
 total_months = 0
 
@@ -85,6 +85,7 @@ print(printoutput)
 
 output_file = os.path.join('..', 'Analysis', 'pyBank_output.txt')
 
+
 pyBankoutput = open(output_file, "w")
 
 line1 = "Financial Analysis"
@@ -92,11 +93,14 @@ line2 = "------------------------------------------"
 line3 = str(f"Total Months: {str(total_months)}")
 line4 = str(f"Total: ${str(total_profit_loss)}")
 line5 = str(f"Average Change: ${str(round(avg_change,2))}")
-line6 = str(f"Greatest Increase in Profits: {greatest__inc_date} (${str(greatest_increase)})")
-line7 = str(f"Greatest Decrease in Profits: {greatest__dec_date} (${str(greatest_decrease)})")
-pyBankoutput.write('{}\n{}\n{}\n{}\n{}\n{}\n{}\n'.format(line1, line2, line3, line4, line5, line6, line7))
+line6 = str(
+    f"Greatest Increase in Profits: {greatest__inc_date} (${str(greatest_increase)})")
+line7 = str(
+    f"Greatest Decrease in Profits: {greatest__dec_date} (${str(greatest_decrease)})")
+pyBankoutput.write('{}\n{}\n{}\n{}\n{}\n{}\n{}\n'.format(
+    line1, line2, line3, line4, line5, line6, line7))
 
 
 # This Code is compiled and written for the Python class Homework in the Data Analytics Bootcamp class given by-Trilogy Education Services at the University of Toronto,continuing studies. The code used learning resources from the class.
 
-#©2020 Trilogy Education Services
+# ©2020 Trilogy Education Services
