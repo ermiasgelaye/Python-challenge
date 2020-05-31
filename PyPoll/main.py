@@ -59,7 +59,7 @@ print("--------------------------")
 # Exporting to text file
 
 
-output_file = os.path.join('/Users/ermiasgaga/documents/GitHub/python-challenge/PyPoll/', 'Analysis', 'pyPoll_output.txt')
+output_file = os.path.join('..', 'Analysis', 'pyPoll_output.txt')
 
 pyPolloutput = open(output_file, "w")
 
