@@ -34,6 +34,7 @@ The code's organized to analyze the data, and create an output file in the Analy
  ![PyBank](Images/Budget.gif)
  
  The [main script](PyBank/main.py) analyzes, and create an out put in [Analysis](PyBank/Analysis/pyBank_output.txt) sub-folder. 
+ 
   The code looks as follows:
  
  ![PyBank main code](Images/pynbank.gif)
@@ -54,6 +55,30 @@ The output looks as follows:
 
 ![PyBank output](Images/Financial_analysis.png)
 
+ ## PyPoll
+ 
+ In this challenge, a python script created to modernize a vote counting proces of a small rural town. These script used [election data](PyPoll/Resources/). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`.
+ 
+  ![PyPoll](Images/pypoll1.gif)
+ 
+ The [main script](PyPoll/main.py) analyzes, and create an out put in [Analysis](Pypoll/Analysis/pyPoll_output.txt) sub-folder. 
+ 
+  The code looks as follows:
+  ![PyBank main code](Images/pypoll.gif)
+ 
+ The code compute the following tasks:
+ 
+  * The total number of votes cast
+
+  * A complete list of candidates who received votes
+
+  * The percentage of votes each candidate won
+
+  * The total number of votes each candidate won
+
+  * The winner of the election based on popular vote.
+ 
+ 
 
   
  
