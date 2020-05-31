@@ -2,7 +2,7 @@
 
 ## Background
 
-This paython challenge has four parts wich solves real life 
+
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
