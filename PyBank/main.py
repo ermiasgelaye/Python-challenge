@@ -65,4 +65,35 @@ with open(data_path, newline="") as budget_file:
     greatest__dec_index = profits.index(greatest_decrease)
     greatest__dec_date = dates[greatest__dec_index]
 
+#Printing the analysiss output
+printoutput = (
+    f"Financial Analysis\n"
+    f"-------------------------------------\n"
+    f"Total Months: {str(total_months)}\n"
+    f"Total: ${str(total_profit_loss)}\n"
+    f"Average Change: ${str(round(avg_change,2))}\n"
+    f"Greatest Increase in Profits: {greatest__inc_date} (${str(greatest_increase)})\n"
+    f"Greatest Decrease in Profits: {greatest__dec_date} (${str(greatest_decrease)})\n")
+print(printoutput)
+
+# Writing Printing the analysiss output
+
+output_file = os.path.join(
+    '/Users/ermiasgaga/documents/GitHub/python-challenge/PyBank/', 'Analysis', 'pyBank_output.txt')
+
+
+pyBankoutput = open(output_file, "w")
+
+line1 = "Financial Analysis"
+line2 = "------------------------------------------"
+line3 = str(f"Total Months: {str(total_months)}")
+line4 = str(f"Total: ${str(total_profit_loss)}")
+line5 = str(f"Average Change: ${str(round(avg_change,2))}")
+line6 = str(
+    f"Greatest Increase in Profits: {greatest__inc_date} (${str(greatest_increase)})")
+line7 = str(
+    f"Greatest Decrease in Profits: {greatest__dec_date} (${str(greatest_decrease)})")
+pyBankoutput.write('{}\n{}\n{}\n{}\n{}\n{}\n{}\n'.format(line1, line2, line3, line4, line5, line6, line7))
+
+
 
