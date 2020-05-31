@@ -55,6 +55,14 @@ with open(data_path, newline="") as budget_file:
         # Average of the changes in "Profit/Losses" over the entire period
         
         avg_change = sum(profits)/len(profits)
-  
+  # The greatest increase in profits
+    greatest_increase = max(profits)
+    greatest_inc_index = profits.index(greatest_increase)
+    greatest__inc_date = dates[greatest_inc_index]
+
+    # The greatest decrease in profits
+    greatest_decrease = min(profits)
+    greatest__dec_index = profits.index(greatest_decrease)
+    greatest__dec_date = dates[greatest__dec_index]
 
 
