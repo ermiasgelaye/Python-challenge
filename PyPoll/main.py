@@ -78,4 +78,8 @@ line7 = "--------------------------"
 pyPolloutput.write('{}\n{}\n{}\n'.format(line5, line6, line7))
 
 
+# This Code is compiled and written for the Python class Homework in the Data Analytics Bootcamp class given by-Trilogy Education Services at the University of Toronto,continuing studies. The code used learning resources from the class.
+
+# ©2020 Trilogy Education Services
+
 
