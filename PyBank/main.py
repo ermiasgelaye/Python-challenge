@@ -33,7 +33,9 @@ with open(data_path, newline="") as budget_file:
     # Add total month counter
 
     total_months += 1
-
+    
+    # Add profit and loss counter
+        
     total_profit_loss += int(first_row[1])
     value = int(first_row[1])
     # Read the rows after the header row
