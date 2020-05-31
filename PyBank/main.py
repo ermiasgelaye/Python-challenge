@@ -29,6 +29,8 @@ with open(data_path, newline="") as budget_file:
 
 
     first_row = next(csvreader)
+    
+    # Add total month counter
 
     total_months += 1
 
