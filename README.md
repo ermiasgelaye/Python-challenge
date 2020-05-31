@@ -26,10 +26,14 @@ The code's organized to analyze the data, and create an output file in the Analy
   * [Main Code](PyParagraph/main.py)
   * [Analysis output](PyParagraph/Analysis/pyParagraph_output.txt)
   
- ## PyBank
+  ## PyBank
+  In this challenge a python script created to analyze financial data of a company and give an output. The dataset [budget
+  data](PyBank/Resources/budget_data.csv) is composed of two columns: `Date` and `Profit/Losses`.
+
  ![PyBank](Images/Budget.gif)
  
-In this challenge a python script created to analyze financial data of a company and give an output. The dataset [budget data](PyBank/Resources/budget_data.csv) is composed of two columns: `Date` and `Profit/Losses`.The [main script](PyBank/main.py) analyzes, and create an out put in [Analysis](PyBank/Analysis/pyBank_output.txt)sub folder. The code looks as follows:
+ The [main script](PyBank/main.py) analyzes, and create an out put in [Analysis](PyBank/Analysis/pyBank_output.txt)sub folder. 
+ The code looks as follows:
 
 ![PyBank main code](Images/pynbank.gif)
 
