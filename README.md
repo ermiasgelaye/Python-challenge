@@ -61,7 +61,7 @@ The output looks as follows:
  
   ![PyPoll](Images/pypoll1.gif)
  
- The [main script](PyPoll/main.py) analyzes, and create an out put in PyPoll [Analysis](Pypoll/Analysis/pyPoll_output.txt) sub-folder. 
+ The [main script](PyPoll/main.py) analyzes, and create an out put in PyPoll [Analysis](PyPoll/Analysis/pyPoll_output.txt) sub-folder. 
  
   The code looks as follows:
   ![PyBank main code](Images/pypoll.gif)
@@ -77,6 +77,38 @@ The output looks as follows:
   * The total number of votes each candidate won
 
   * The winner of the election based on popular vote.
+  
+  The output looks as follows:
+
+![PyBank output](Images/election_analyis.png)
+  
+ ## PyBoss 
+ 
+ In this challenge a python script created to convert older employees data in to the new format.The [dataset](PyBoss/Resources/employee_data.csv)generated from a Tuna 2.0 company, a world-changing snack food based on canned tuna fish. A new format is needed because the company recently decided to purchase a new HR system, and this new system requires employee records be stored completely differently.
+ 
+ ![PyBoss](Images/pyboss 2.gif)
+
+The [main script](PyBoss/main.py) analyzes, and create the new format as an out put in PyBoss [Analysis](PyPoll/Analysis/pyPoll_output.txt)sub-folder. 
+
+The code looks as follows:
+ ![PyBank main code](Images/pyboss.gif)
+ 
+ The code compute the following tasks:
+ 
+  * The `Name` column should be split into separate `First Name` and `Last Name` columns.
+
+  * The `DOB` data should be re-written into `MM/DD/YYYY` format.
+
+  * The `SSN` data should be re-written such that the first five numbers are hidden from view.
+
+  * The `State` data should be re-written as simple two-letter abbreviations.
+  
+  Before it looks as follows:
+  
+  ![Raw Data ](Images/PyBoss_Before.png)
+  
+  After the output looks as follows:
+  ![PyBoss Output ](Images/PyBoss_After.png)
  
  
 
