@@ -1,8 +1,9 @@
+
 # Importing modules important for the analysis
 import os
 import csv
-
-data_path = os.path.join('/Users/ermiasgaga/documents/GitHub/python-challenge/Pypoll/','Resources', "election_data.csv")
+# Set relative path for csv file
+data_path = os.path.join('..','Resources', "election_data.csv")
 
 # A list to hold the names of candidates
 candidates = []
@@ -44,7 +45,7 @@ with open(data_path, newline="") as csvfile:
     index = num_votes.index(winner)
     winning_candidate = candidates[index]
 
-    # printing the output
+# printing the output
 print("Election Results")
 print("--------------------------")
 print(f"Total Votes: {str(total_votes)}")
@@ -55,26 +56,26 @@ print("--------------------------")
 print(f"Winner: {winning_candidate}")
 print("--------------------------")
 
-# Exporting to .txt file
+# Exporting to text file
 
 
 output_file = os.path.join('/Users/ermiasgaga/documents/GitHub/python-challenge/PyPoll/', 'Analysis', 'pyPoll_output.txt')
 
-output = open(output_file, "w")
+pyPolloutput = open(output_file, "w")
 
 line1 = "Election Results"
 line2 = "--------------------------"
 line3 = str(f"Total Votes: {str(total_votes)}")
 line4 = str("--------------------------")
-output.write('{}\n{}\n{}\n{}\n'.format(line1, line2, line3, line4))
+pyPolloutput.write('{}\n{}\n{}\n{}\n'.format(line1, line2, line3, line4))
 for i in range(len(candidates)):
     line = str(
         f"{candidates[i]}: {str(percent_votes[i])} ({str(num_votes[i])})")
-    output.write('{}\n'.format(line))
+    pyPolloutput.write('{}\n'.format(line))
 line5 = "--------------------------"
 line6 = str(f"Winner: {winning_candidate}")
 line7 = "--------------------------"
-output.write('{}\n{}\n{}\n'.format(line5, line6, line7))
+pyPolloutput.write('{}\n{}\n{}\n'.format(line5, line6, line7))
 
 
 

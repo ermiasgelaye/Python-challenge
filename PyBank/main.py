@@ -1,3 +1,4 @@
+# Importing modules important for the analysis
 import os
 import csv
 # Set relative path for csv file
