@@ -27,6 +27,7 @@ The code's organized to analyze the data, and create an output file in the Analy
   * [Analysis output](PyParagraph/Analysis/pyParagraph_output.txt)
   
   ## PyBank
+  
   In this challenge a python script created to analyze financial data of a company and give an output. The dataset [budget
   data](PyBank/Resources/budget_data.csv) is composed of two columns: `Date` and `Profit/Losses`.
 
@@ -34,7 +35,8 @@ The code's organized to analyze the data, and create an output file in the Analy
  
  The [main script](PyBank/main.py) analyzes, and create an out put in [Analysis](PyBank/Analysis/pyBank_output.txt) sub-folder. 
  
- The code compute the following tasks:   
+ The code compute the following tasks:
+ 
   * The total number of months included in the dataset
 
   * The net total amount of "Profit/Losses" over the entire period
@@ -46,6 +48,7 @@ The code's organized to analyze the data, and create an output file in the Analy
   * The greatest decrease in losses (date and amount) over the entire period
 
  The code looks as follows:
+ 
 ![PyBank main code](Images/pynbank.gif)
 
 
