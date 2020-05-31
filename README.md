@@ -10,27 +10,40 @@ The code's organized to analyze the data, and create an output file in the Analy
 ## Table of Contents
 
 * [PyBank](PyBank/)
-  * [Resources](PyBank/Resources/)
+  * [Resources](PyBank/Resources/budget_data.csv)
   * [Main Code](PyBank/main.py)
-  * [Analysis output](PyBank/Analysis/)
+  * [Analysis output](PyBank/Analysis/pyBank_output.txt)
 * [PyPoll](PyPoll/)
-  * [Resources](PyPoll/Resources)
+  * [Resources](PyPoll/Resources/)
   * [Main Code](PyPoll/main.py)
-  * [Analysis output](PyPoll/Analysis)
+  * [Analysis output](PyPoll/Analysis/pyPoll_output.txt)
 * [PyBoss](PyBoss/)
-  * [Resources](PyBoss/Resources/)
+  * [Resources](PyBoss/Resources/employee_data.csv)
   * [Main Code](PyBoss/main.py)
-  * [Analysis output](PyBoss/Analysis)
+  * [Analysis output](PyBoss/Analysis/pyBoss_output.txt)
 * [PyParagraph](PyParagraph/)
   * [Resources](PyParagraph/Resources/)
   * [Main Code](PyParagraph/main.py)
-  * [Analysis output](PyParagraph/Analysis)
+  * [Analysis output](PyParagraph/Analysis/pyParagraph_output.txt)
   
  ## PyBank
  ![PyBank](Images/Budget.gif)
  
- In this challenge a python script created to analyze financial data of a company and give an out put. The dataset [budget data](PyBank/Resources/budget_data.csv) is composed of two columns: `Date` and `Profit/Losses`.The [main script](PyBank/main.py)analyzes, and create
-                - 
+In this challenge a python script created to analyze financial data of a company and give an output. The dataset [budget data](PyBank/Resources/budget_data.csv) is composed of two columns: `Date` and `Profit/Losses`.The [main script](PyBank/main.py) analyzes, and create an out put in [Analysis](PyBank/Analysis/pyBank_output.txt)sub folder. The code looks as follows:
+
+![PyBank main code](Images/pynbank.gif)
+
+The code compute the following tasks:   
+  * The total number of months included in the dataset
+
+  * The net total amount of "Profit/Losses" over the entire period
+
+  * The average of the changes in "Profit/Losses" over the entire period
+
+  * The greatest increase in profits (date and amount) over the entire period
+
+  * The greatest decrease in losses (date and amount) over the entire period
+  
  
  
  
