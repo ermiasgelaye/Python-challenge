@@ -33,11 +33,8 @@ The code's organized to analyze the data, and create an output file in the Analy
  ![PyBank](Images/Budget.gif)
  
  The [main script](PyBank/main.py) analyzes, and create an out put in [Analysis](PyBank/Analysis/pyBank_output.txt)sub folder. 
- The code looks as follows:
-
-![PyBank main code](Images/pynbank.gif)
-
-The code compute the following tasks:   
+ 
+ The code compute the following tasks:   
   * The total number of months included in the dataset
 
   * The net total amount of "Profit/Losses" over the entire period
@@ -47,6 +44,11 @@ The code compute the following tasks:
   * The greatest increase in profits (date and amount) over the entire period
 
   * The greatest decrease in losses (date and amount) over the entire period
+
+ The code looks as follows:
+![PyBank main code](Images/pynbank.gif)
+
+
   
  
  
