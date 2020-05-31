@@ -1,7 +1,7 @@
 # Python-challenge
 
 ## Background
-This repository brings a python solution for real-life situations. The situations encompass financial, election, human resources, and research data. The financial data sourced under ![pyBank/Resources](pyBank/Resources/) folder, the election data sourced under ![pyPoll/Resources](pyPoll/Resources) folder, the human resource data sourced under ![pyBoss/Resources](pyPyParagraph/Resources) folder, and the research data sourced under ![pyPyParagraph/Resources](Images/revenue-per-lead.png) folder. 
+This repository brings a python solution for real-life situations. The situations encompass financial, election, human resources, and research data. The financial data sourced under ![pyBank/Resources](PyBank/Resources/) folder, the election data sourced under ![pyPoll/Resources](PyPoll/Resources) folder, the human resource data sourced under ![PyBoss/Resources](PyBoss/Resources) folder, and the research data sourced under ![pyPyParagraph/Resources](PyParagraph/Resources) folder. 
 
 
 <!-- TABLE OF CONTENTS -->
