@@ -99,3 +99,8 @@ with open(doutput_file, 'w') as csvwrite:
     cleandata_path.writerow(
         ['Emp ID', 'First Name', 'Last Name', 'DOB', 'SSN', 'State'])
     cleandata_path.writerows(new_data)
+
+
+# This Code is compiled and written for the Python class Homework in the Data Analytics Bootcamp class given by-Trilogy Education Services at the University of Toronto,continuing studies. The code used learning resources from the class.
+
+# ©2020 Trilogy Education Services
