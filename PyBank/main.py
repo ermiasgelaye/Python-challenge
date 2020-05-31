@@ -35,6 +35,26 @@ with open(data_path, newline="") as budget_file:
     total_profit_loss += int(first_row[1])
     value = int(first_row[1])
     # Read the rows after the header row
+    for row in csvreader:
+        
+        # Get the date
+        dates.append(row[0])
+
+        # Keep the the records of changes in rows
+        change = int(row[1])-value
+        profits.append(change)
+        value = int(row[1])
+
+        # Total number of months
+        total_months += 1
+
+        # The net total amount of profit/ losses over the entire period
+
+        total_profit_loss = total_profit_loss + int(row[1])
+
+        # Average of the changes in "Profit/Losses" over the entire period
+        
+        avg_change = sum(profits)/len(profits)
   
 
 
