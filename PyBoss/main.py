@@ -7,7 +7,7 @@ import csv
 
 data_path = os.path.join('/Users/ermiasgaga/documents/GitHub/python-challenge/PyBoss/', 'Resources', 'employee_data.csv')
 
-#state abbr dictionary
+# Abrivation of ssates added form "https://gist.github.com/afhaque/29f0f4f37463c447770517a6c17d08f5"
 us_state_abbrev = {
     'Alabama': 'AL',
     'Alaska': 'AK',
@@ -60,11 +60,42 @@ us_state_abbrev = {
     'Wisconsin': 'WI',
     'Wyoming': 'WY',
 }
-
-# empty lists for parsed data
-emp_id = []
+# A list to hold employees ID
+employee_id = []
+# A list to hold employees Firist Name
 first_name = []
+# A list to hold employees Last Name
 last_name = []
+# A list to hold  dob
 dob = []
+# A list to hold  SSN
 ssn = []
+# A list to hold states
 state = []
+
+# Read csv file
+with open(data_path, 'r') as csvdata_path:
+    reader = csv.DictReader(csvdata_path)
+    # appends information to empty lists after being altered
+    for row in reader:
+        employee_id.append(row['Emp ID'])
+        first_name.append(row['Name'].split(" ")[0])
+        last_name.append(row['Name'].split(" ")[1])
+        dob.append(row['DOB'].split('-')[1] + '/' +
+                   row['DOB'].split('-')[2] + '/' + row['DOB'].split('-')[0])
+        ssn.append('***-**-' + row['SSN'].split('-')[2])
+        state.append(us_state_abbrev[row['State']])
+
+# zips lists together
+new_data = zip(employee_id, first_name, last_name, dob, ssn, state)
+
+#names output data_path
+
+doutput_file = os.path.join('/Users/ermiasgaga/documents/GitHub/python-challenge/PyBoss/', 'Analysis', 'pyBoss_output.txt')
+
+#open and writes to csv
+with open(doutput_file, 'w') as csvwrite:
+    cleandata_path = csv.writer(csvwrite, delimiter=",")
+    cleandata_path.writerow(
+        ['Emp ID', 'First Name', 'Last Name', 'DOB', 'SSN', 'State'])
+    cleandata_path.writerows(new_data)
