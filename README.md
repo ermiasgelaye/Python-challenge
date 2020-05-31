@@ -86,7 +86,7 @@ The output looks as follows:
  
  In this challenge a python script created to convert older employees data in to the new format.The [dataset](PyBoss/Resources/employee_data.csv)generated from a Tuna 2.0 company, a world-changing snack food based on canned tuna fish. A new format is needed because the company recently decided to purchase a new HR system, and this new system requires employee records be stored completely differently.
  
- ![PyBoss](Images/pyboss 2.gif)
+ ![PyBoss](Images/pybos2.gif)
 
 The [main script](PyBoss/main.py) analyzes, and create the new format as an out put in PyBoss [Analysis](PyPoll/Analysis/pyPoll_output.txt)sub-folder. 
 
@@ -105,10 +105,11 @@ The code looks as follows:
   
   Before it looks as follows:
   
-  ![Raw Data ](Images/PyBoss_Before.png)
+ ![Raw Data ](Images/PyBoss_Before.png)
   
-  After the output looks as follows:
-  ![PyBoss Output ](Images/PyBoss_After.png)
+ After the output looks as follows:
+  
+ ![PyBoss Output ](Images/PyBoss_After.png)
  
  
 
