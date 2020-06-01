@@ -2,9 +2,9 @@
 ### Python - "The one common language loved across all programmers !"
 
 ## Background
-This repository brings a python solution for real-life situations. The situations encompass financial, election, human resources, and lingustic research data. The financial data sourced under [PyBank/Resources](PyBank/Resources/budget_data.csv) folder, the election data sourced under [PyPoll/Resources](PyPoll/Resources/) folder, the human resource data sourced under [ PyBoss/Resources](PyBoss/Resources/employee_data.csv) folder, and the research data sourced under [PyParagraph/Resources](PyParagraph/Resources) folder. 
+This repository brings a python solution for real-life situations. The situations encompass financial, election, human resources, and linguistic research data. The financial data sourced under [PyBank/Resources](PyBank/Resources/budget_data.csv) folder, the election data sourced under [PyPoll/Resources](PyPoll/Resources/) folder, the human resource data sourced under [ PyBoss/Resources](PyBoss/Resources/employee_data.csv) folder, and the research data sourced under [PyParagraph/Resources](PyParagraph/Resources) folder.
 
-The code's organized to analyze the data, and create an output file in the Analysis subfolder in each projects. 
+The code's organized to analyze the data, and create an output file in the Analysis subfolder in each project. 
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -27,13 +27,11 @@ The code's organized to analyze the data, and create an output file in the Analy
   * [Analysis output](PyParagraph/Analysis/pyParagraph_output.txt)
   
   ## PyBank
-  
-  In this challenge a python script created to analyze financial data of a company and give an output. The dataset [budget
-  data](PyBank/Resources/budget_data.csv) is composed of two columns: `Date` and `Profit/Losses`.
+In this challenge, a python script created to analyze the financial data of a company and give an output. The dataset [budget data](PyBank/Resources/budget_data.csv) is composed of two columns: `Date` and `Profit/Losses`.
 
  ![PyBank](Images/Budget.gif)
  
- The [main script](PyBank/main.py) analyzes, and create an out put in PyBank [Analysis](PyBank/Analysis/pyBank_output.txt) sub-folder. 
+The [main script](PyBank/main.py) analyzes, and create an output in PyBank [Analysis](PyBank/Analysis/pyBank_output.txt) sub-folder. 
  
   The code looks as follows:
  
@@ -57,11 +55,11 @@ The output looks as follows:
 
  ## PyPoll
  
- In this challenge, a python script created to modernize a vote counting proces of a small rural town. These script used [election data](PyPoll/Resources/). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`.
+ In this challenge, a python script created to modernize a vote-counting process of a small rural town. These script used [election data](PyPoll/Resources/). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`.
  
-  ![PyPoll](Images/pypoll1.gif)
+ ![PyPoll](Images/pypoll1.gif)
  
- The [main script](PyPoll/main.py) analyzes, and create an out put in PyPoll [Analysis](PyPoll/Analysis/pyPoll_output.txt) sub-folder. 
+The [main script](PyPoll/main.py) analyzes, and create an output in PyPoll [Analysis](PyPoll/Analysis/pyPoll_output.txt) sub-folder. 
  
   The code looks as follows:
   
@@ -85,11 +83,11 @@ The output looks as follows:
   
  ## PyBoss 
  
- In this challenge a python script created to convert older employees data in to the new format.The [dataset] (PyBoss/Resources/employee_data.csv)generated from a Tuna 2.0 company, a world-changing snack food based on canned tuna fish. A new format is needed because the company recently decided to purchase a new HR system, and this new system requires employee records be stored completely differently.
+In this challenge, a python script created to convert older employee's data into the new format. The [dataset] (PyBoss/Resources/employee_data.csv)generated from a Tuna 2.0 company, a world-changing snack food based on canned tuna fish. A new format is needed because the company recently decided to purchase a new HR system, and this new system requires employee records to be stored completely differently.
  
  ![PyBoss](Images/pybos2.gif)
 
-The [main script](PyBoss/main.py) analyzes, and create the new format as an out put in PyBoss [Analysis] (PyPoll/Analysis/pyPoll_output.txt)sub-folder. 
+The [main script](PyBoss/main.py) analyzes, and create the new format as an output in PyBoss [Analysis] (PyPoll/Analysis/pyPoll_output.txt)sub-folder.
 
 The code looks as follows:
 
@@ -115,11 +113,11 @@ The code looks as follows:
  
   ## PyParagraph
   
-  In this challenge a python script created to automate and assess a complexity of the passage that used for a lingustic research program. The passage is originated from the sophomoric Twilight novel to the nauseatingly high-minded article.You can find the passages[passages] (PyParagraph/Resources/) in the resources folder. 
+In this challenge, a python script created to automate and assess the complexity of the passage used for a linguistic research program. The passage is originated from the sophomoric Twilight novel to the nauseatingly high-minded article. You can find the passages[passages] (PyParagraph/Resources/) in the resources folder. 
   
   ![PyBoss](Images/pyparagraph_2.gif)
  
- The [main script](PyParagraph/main.py) analyzes, and create a text output in pyParagraph [Analysis]  (PyParagraph/Analysis/pyParagraph_output.txtt) sub-folder. 
+The [main script](PyParagraph/main.py) analyzes, and create a text output in pyParagraph [Analysis]  (PyParagraph/Analysis/pyParagraph_output.txtt) sub-folder.  
  
  The code looks as follows:
  
