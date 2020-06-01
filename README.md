@@ -148,7 +148,7 @@ The [main script](PyParagraph/main.py) analyzes, and create a text output in pyP
   
 
 
-This Code is compiled and written for the Python class Homework in the Data Analytics Bootcamp class given by-Trilogy Education Services at the University of Toronto,continuing studies. The code used learning resources from the class.
+This Code is compiled and written for the Python class Homework in the Data Analytics Bootcamp class given by-Trilogy Education Services at the University of Toronto, continuing studies. The code used learning resources from the class.
 
  © 2020 Trilogy Education Services
 
