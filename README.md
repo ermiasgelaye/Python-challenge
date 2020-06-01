@@ -117,7 +117,7 @@ In this challenge, a python script created to automate and assess the complexity
   
   ![PyBoss](Images/pyparagraph_2.gif)
  
-The [main script](PyParagraph/main.py) analyzes, and create a text output in pyParagraph [Analysis]  (PyParagraph/Analysis/pyParagraph_output.txtt) sub-folder.  
+The [main script](PyParagraph/main.py) analyzes, and create a text output in pyParagraph [Analysis](PyParagraph/Analysis/pyParagraph_output.txtt) sub-folder.  
  
  The code looks as follows:
  
