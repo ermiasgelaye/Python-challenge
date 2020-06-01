@@ -30,7 +30,7 @@ The code's organized to analyze the data, and create an output file in the Analy
 In this challenge, a python script created to analyze the financial data of a company and give an output. The dataset [budget data](PyBank/Resources/budget_data.csv) is composed of two columns: `Date` and `Profit/Losses`.
 
  ![PyBank](Images/Budget.gif)
- Source:https://globalcompliancepaneltraining.wordpress.com/
+ Image Source:https://globalcompliancepaneltraining.wordpress.com/
  
 The [main script](PyBank/main.py) analyzes, and create an output in PyBank [Analysis](PyBank/Analysis/pyBank_output.txt) sub-folder. 
  
@@ -59,6 +59,7 @@ The output looks as follows:
  In this challenge, a python script created to modernize a vote-counting process of a small rural town. These script used [election data](PyPoll/Resources/). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`.
  
  ![PyPoll](Images/pypoll1.gif)
+ Image Source https://www.thedp.com/staff/camille-rapay
  
 The [main script](PyPoll/main.py) analyzes, and create an output in PyPoll [Analysis](PyPoll/Analysis/pyPoll_output.txt) sub-folder. 
  
