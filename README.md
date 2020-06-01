@@ -64,6 +64,7 @@ The output looks as follows:
  The [main script](PyPoll/main.py) analyzes, and create an out put in PyPoll [Analysis](PyPoll/Analysis/pyPoll_output.txt) sub-folder. 
  
   The code looks as follows:
+  
   ![PyBank main code](Images/pypoll.gif)
  
  The code compute the following tasks:
@@ -91,6 +92,7 @@ The output looks as follows:
 The [main script](PyBoss/main.py) analyzes, and create the new format as an out put in PyBoss [Analysis] (PyPoll/Analysis/pyPoll_output.txt)sub-folder. 
 
 The code looks as follows:
+
  ![PyBank main code](Images/pyboss.gif)
  
  The code compute the following tasks:
@@ -117,9 +119,10 @@ The code looks as follows:
   
   ![PyBoss](Images/pyparagraph_2.gif)
  
- The [main script](PyParagraph/main.py)analyzes, and create a text output in pyParagraph [Analysis]  (PyParagraph/Analysis/pyParagraph_output.txtt) sub-folder. 
+ The [main script](PyParagraph/main.py) analyzes, and create a text output in pyParagraph [Analysis]  (PyParagraph/Analysis/pyParagraph_output.txtt) sub-folder. 
  
  The code looks as follows:
+ 
  ![PyBank main code](Images/pyparagraph.gif)
  
  The code compute the following tasks:
@@ -146,6 +149,10 @@ The code looks as follows:
   
   
 
+
+This Code is compiled and written for the Python class Homework in the Data Analytics Bootcamp class given by-Trilogy Education Services at the University of Toronto,continuing studies. The code used learning resources from the class.
+
+ © 2020 Trilogy Education Services
 
   
  
