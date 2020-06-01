@@ -84,11 +84,11 @@ The output looks as follows:
   
  ## PyBoss 
  
- In this challenge a python script created to convert older employees data in to the new format.The [dataset](PyBoss/Resources/employee_data.csv)generated from a Tuna 2.0 company, a world-changing snack food based on canned tuna fish. A new format is needed because the company recently decided to purchase a new HR system, and this new system requires employee records be stored completely differently.
+ In this challenge a python script created to convert older employees data in to the new format.The [dataset] (PyBoss/Resources/employee_data.csv)generated from a Tuna 2.0 company, a world-changing snack food based on canned tuna fish. A new format is needed because the company recently decided to purchase a new HR system, and this new system requires employee records be stored completely differently.
  
  ![PyBoss](Images/pybos2.gif)
 
-The [main script](PyBoss/main.py) analyzes, and create the new format as an out put in PyBoss [Analysis](PyPoll/Analysis/pyPoll_output.txt)sub-folder. 
+The [main script](PyBoss/main.py) analyzes, and create the new format as an out put in PyBoss [Analysis] (PyPoll/Analysis/pyPoll_output.txt)sub-folder. 
 
 The code looks as follows:
  ![PyBank main code](Images/pyboss.gif)
@@ -111,7 +111,41 @@ The code looks as follows:
   
  ![PyBoss Output ](Images/PyBoss_After.png)
  
+  ## PyParagraph
+  
+  In this challenge a python script created to automate and assess a complexity of the passage that used for a lingustic research program. The passage is originated from the sophomoric Twilight novel to the nauseatingly high-minded article.You can find the passages[passages] (PyParagraph/Resources/) in the resources folder. 
+  
+  ![PyBoss](Images/pyparagraph_2.gif)
  
+ The [main script](PyParagraph/main.py)analyzes, and create a text output in pyParagraph [Analysis]  (PyParagraph/Analysis/pyParagraph_output.txtt) sub-folder. 
+ 
+ The code looks as follows:
+ ![PyBank main code](Images/pyparagraph.gif)
+ 
+ The code compute the following tasks:
+ 
+  * Import a text file filled with a paragraph of your choosing.
+  
+  * Count approximate word
+
+  * Count approximate sentence 
+
+  * Count approximate letter (per word)
+
+  * Average sentence length (in words)
+  
+  The output looks as follows:
+  
+  ![PyParagraph output](Images/Ppyparagraph_print.png)
+  
+
+  As an example, this passage:
+  
+  ![PyParagraph print](Images/PyParagraph.png)
+ 
+  
+  
+
 
   
  
