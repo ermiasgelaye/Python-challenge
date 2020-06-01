@@ -113,7 +113,7 @@ The code looks as follows:
  
   ## PyParagraph
   
-In this challenge, a python script created to automate and assess the complexity of the passage used for a linguistic research program. The passage is originated from the sophomoric Twilight novel to the nauseatingly high-minded article. You can find the passages[passages](PyParagraph/Resources/) in the resources folder. 
+In this challenge, a python script created to automate and assess the complexity of the passage used for a linguistic research program. The passage is originated from the sophomoric Twilight novel to the nauseatingly high-minded article. You can find the passages [passages](PyParagraph/Resources/) in the resources folder. 
   
   ![PyBoss](Images/pyparagraph_2.gif)
  
