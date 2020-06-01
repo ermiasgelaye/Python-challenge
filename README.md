@@ -136,10 +136,10 @@ The code looks as follows:
   
   The output looks as follows:
   
-  ![PyParagraph output](Images/Ppyparagraph_print.png)
+  ![PyParagraph output](Images/pyparagraph_print.png)
   
 
-  As an example, this passage:
+  The passage output looks as follows:
   
   ![PyParagraph print](Images/PyParagraph.png)
  
