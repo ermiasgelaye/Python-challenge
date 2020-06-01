@@ -56,7 +56,7 @@ The output looks as follows:
 
  ## PyPoll
  
- In this challenge, a python script created to modernize a vote-counting process of a small rural town. These script used [election data](PyPoll/Resources/). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`.
+ In this challenge, a python script created to modernize a vote-counting process of a small rural town. This script used [election dataset](PyPoll/Resources/), and it is composed of three columns: `Voter ID`, `County`, and `Candidate`.
  
  ![PyPoll](Images/pypoll1.gif)
  
