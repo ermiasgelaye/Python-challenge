@@ -83,7 +83,7 @@ The [main script](PyPoll/main.py) analyzes, and create an output in PyPoll [Anal
   
  ## PyBoss 
  
-In this challenge, a python script created to convert older employee's data into the new format. The [dataset] (PyBoss/Resources/employee_data.csv)generated from a Tuna 2.0 company, a world-changing snack food based on canned tuna fish. A new format is needed because the company recently decided to purchase a new HR system, and this new system requires employee records to be stored completely differently.
+In this challenge, a python script created to convert older employee's data into the new format. The [dataset](PyBoss/Resources/employee_data.csv)generated from a Tuna 2.0 company, a world-changing snack food based on canned tuna fish. A new format is needed because the company recently decided to purchase a new HR system, and this new system requires employee records to be stored completely differently.
  
  ![PyBoss](Images/pybos2.gif)
 
@@ -113,7 +113,7 @@ The code looks as follows:
  
   ## PyParagraph
   
-In this challenge, a python script created to automate and assess the complexity of the passage used for a linguistic research program. The passage is originated from the sophomoric Twilight novel to the nauseatingly high-minded article. You can find the passages[passages] (PyParagraph/Resources/) in the resources folder. 
+In this challenge, a python script created to automate and assess the complexity of the passage used for a linguistic research program. The passage is originated from the sophomoric Twilight novel to the nauseatingly high-minded article. You can find the passages[passages](PyParagraph/Resources/) in the resources folder. 
   
   ![PyBoss](Images/pyparagraph_2.gif)
  
