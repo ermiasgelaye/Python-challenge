@@ -26,7 +26,7 @@ The code's organized to analyze the data, and create an output file in the Analy
   * [Main Code](PyParagraph/main.py)
   * [Analysis output](PyParagraph/Analysis/pyParagraph_output.txt)
   
-  ## PyBank
+## PyBank
 In this challenge, a python script created to analyze the financial data of a company and give an output. The dataset [budget data](PyBank/Resources/budget_data.csv) is composed of two columns: `Date` and `Profit/Losses`.
 
  ![PyBank](Images/Budget.gif)
@@ -81,7 +81,7 @@ The [main script](PyPoll/main.py) analyzes, and create an output in PyPoll [Anal
 
 ![PyBank output](Images/election_analyis.png)
   
- ## PyBoss 
+## PyBoss 
  
 In this challenge, a python script created to convert older employee's data into the new format. The [dataset](PyBoss/Resources/employee_data.csv) generated from a Tuna 2.0 company, a world-changing snack food based on canned tuna fish. A new format is needed because the company recently decided to purchase a new HR system, and this new system requires employee records to be stored completely differently.
  
@@ -111,7 +111,7 @@ The code looks as follows:
   
  ![PyBoss Output ](Images/PyBoss_After.png)
  
-  ## PyParagraph
+## PyParagraph
   
 In this challenge, a python script created to automate and assess the complexity of the passage used for a linguistic research program. The passage is originated from the sophomoric Twilight novel to the nauseatingly high-minded article. You can find the passages [passages](PyParagraph/Resources/) in the resources folder. 
   
