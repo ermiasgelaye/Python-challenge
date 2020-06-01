@@ -90,7 +90,7 @@ In this challenge, a python script created to convert older employee's data into
  
  ![PyBoss](Images/pybos2.gif)
 
-The [main script](PyBoss/main.py) analyzes, and create the new format as an output in PyBoss [Analysis](PyPoll/Analysis/pyPoll_output.txt)sub-folder.
+The [main script](PyBoss/main.py) analyzes, and create the new format as an output in PyBoss [Analysis](PyPoll/Analysis/pyPoll_output.txt) sub-folder.
 
 The code looks as follows:
 
