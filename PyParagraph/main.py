@@ -63,15 +63,7 @@ output = (
 print(output)
 
 # Save the results to analysis text file
-<<<<<<< HEAD
-<<<<<<< HEAD
 output_file = os.path.join('Analysis', 'pyParagraph_output.txt')
-=======
-output_file = os.path.join('..', 'Analysis', 'pyParagraph_output.txt')
->>>>>>> 1b52fa94b5f60d902426fcd7eb08424809d91f25
-=======
-output_file = os.path.join('Analysis', 'pyParagraph_output.txt')
->>>>>>> ba50367fc472479c81d9d311f6338a20060909a0
 
 with open(output_file, "a") as txt_file:
     txt_file.write(output)
