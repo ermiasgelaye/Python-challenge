@@ -11,9 +11,9 @@ Note : All the main codes are set up to the relative path to be auto-adjusted in
 
 For example the relative directories looks as follows:
 
- For import `data_path=os.path.join('Resources', 'budget_data.csv')`
+ To import         `data_path=os.path.join('Resources', 'budget_data.csv')`
  
- For Export Output `output_file = os.path.join('Analysis', 'pyBank_output.txt')`
+ To export Output  `output_file = os.path.join('Analysis', 'pyBank_output.txt')`
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
