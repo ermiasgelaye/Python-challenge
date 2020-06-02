@@ -3,7 +3,7 @@ import os
 import re
 
 # Set relative path for txt file
-# select a paragraph 1 or paragraph 1 in the path for this test I choose paragraph 1
+# select a paragraph 1 or paragraph 2 in the path for this test I choose paragraph 1
 
 data_path = os.path.join('..', 'Resources', 'paragraph_1.txt')
 
