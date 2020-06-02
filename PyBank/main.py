@@ -2,7 +2,7 @@
 import os
 import csv
 # Set relative path for csv file
-data_path=os.path.join('..', 'Resources', 'budget_data.csv')
+data_path=os.path.join('Resources', 'budget_data.csv')
 # counter for the total number of months
 total_months = 0
 
@@ -83,7 +83,7 @@ print(printoutput)
 
 # Exporting to text file
 
-output_file = os.path.join('..', 'Analysis', 'pyBank_output.txt')
+output_file = os.path.join('Analysis', 'pyBank_output.txt')
 
 
 pyBankoutput = open(output_file, "w")
