@@ -2,7 +2,11 @@
 import os
 import csv
 # Set relative path for csv file
+<<<<<<< HEAD
 data_path=os.path.join('Resources', 'budget_data.csv')
+=======
+data_path=os.path.join('Resources', 'budget_data.csv')
+>>>>>>> 1b52fa94b5f60d902426fcd7eb08424809d91f25
 # counter for the total number of months
 total_months = 0
 
@@ -30,18 +34,18 @@ with open(data_path, newline="") as budget_file:
 
 
     first_row = next(csvreader)
-    
+
     # Add total month counter
 
     total_months += 1
-    
+
     # Add profit and loss counter
-        
+
     total_profit_loss += int(first_row[1])
     value = int(first_row[1])
     # Read the rows after the header row
     for row in csvreader:
-        
+
         # Get the date
         dates.append(row[0])
 
@@ -58,7 +62,7 @@ with open(data_path, newline="") as budget_file:
         total_profit_loss = total_profit_loss + int(row[1])
 
         # Average of the changes in "Profit/Losses" over the entire period
-        
+
         avg_change = sum(profits)/len(profits)
   # The greatest increase in profits
     greatest_increase = max(profits)

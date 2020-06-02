@@ -3,7 +3,7 @@ import os
 import re
 
 # Set relative path for txt file
-# select a paragraph 1 or paragraph 1 in the path for this test I choose paragraph 1
+# select a paragraph 1 or paragraph 2 in the path for this test I choose paragraph 1
 
 data_path = os.path.join('Resources', 'paragraph_1.txt')
 
@@ -63,7 +63,11 @@ output = (
 print(output)
 
 # Save the results to analysis text file
+<<<<<<< HEAD
 output_file = os.path.join('Analysis', 'pyParagraph_output.txt')
+=======
+output_file = os.path.join('..', 'Analysis', 'pyParagraph_output.txt')
+>>>>>>> 1b52fa94b5f60d902426fcd7eb08424809d91f25
 
 with open(output_file, "a") as txt_file:
     txt_file.write(output)
