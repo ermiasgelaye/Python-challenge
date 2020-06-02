@@ -2,15 +2,9 @@
 import os
 import csv
 # Set relative path for csv file
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 data_path=os.path.join('Resources', 'budget_data.csv')
-=======
-data_path=os.path.join('Resources', 'budget_data.csv')
->>>>>>> 1b52fa94b5f60d902426fcd7eb08424809d91f25
-=======
-data_path=os.path.join('Resources', 'budget_data.csv')
->>>>>>> ba50367fc472479c81d9d311f6338a20060909a0
+
 # counter for the total number of months
 total_months = 0
 
