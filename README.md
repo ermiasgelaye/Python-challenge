@@ -9,6 +9,12 @@ The code's organized to analyze the data, and create an output file in the Analy
 
 Note : All the main codes are set up to the relative path to be auto-adjusted in your working directory, however, the path in the video below is just my directory for demonstration.
 
+For example the relative directories looks as follows:
+
+ For import `data_path=os.path.join('Resources', 'budget_data.csv')`
+ 
+ For Export Output `output_file = os.path.join('Analysis', 'pyBank_output.txt')`
+
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
