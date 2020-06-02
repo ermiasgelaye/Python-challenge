@@ -3,7 +3,7 @@
 import os
 import csv
 # Set relative path for csv file
-data_path = os.path.join('..','Resources', "election_data.csv")
+data_path = os.path.join('Resources', "election_data.csv")
 
 # A list to hold the names of candidates
 candidates = []
@@ -59,7 +59,7 @@ print("--------------------------")
 # Exporting to text file
 
 
-output_file = os.path.join('..', 'Analysis', 'pyPoll_output.txt')
+output_file = os.path.join('Analysis', 'pyPoll_output.txt')
 
 pyPolloutput = open(output_file, "w")
 
