@@ -7,7 +7,7 @@ This repository brings a python solution for real-life situations. The situation
 The code's organized to analyze the data, and create an output file in the Analysis subfolder in each project.
 
 
-Note: All the main codes are set up to the relative path to be auto adjusted in your working directory, however the path in the vedio below is just my directory for demontration.  
+Note : All the main codes are set up to the relative path to be auto-adjusted in your working directory, however, the path in the video below is just my directory for demonstration.
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
